@@ -1,0 +1,64 @@
+.metrics {
+  font-size: 3em;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.topRow {
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.paper {
+  text-align: center;
+}
+
+.header {
+  padding-left: 5%;
+}
+
+.maps {
+  float: left;
+  width: 60%;
+  text-align: center;
+  display: column;
+}
+
+.context {
+  display: flex;
+  height: 80%;
+  position: relative;
+}
+
+.overview {
+  display: column;
+  text-align: center;
+  padding-left: 6%;
+}
+
+.progress {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.report {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2%;
+}
+
+.issues {
+  margin-top: 5%;
+}
+
+.listItem {
+
+}
+
+.flatButton {
+
+}

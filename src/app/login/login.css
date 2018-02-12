@@ -1,0 +1,57 @@
+html {
+  height: 100%;
+}
+
+body{
+  min-height:100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url("https://s3.amazonaws.com/public-image-test/login-background-hd.png");
+}
+
+.paper {
+  padding-bottom: 10%;
+  width: 450px;
+}
+
+.loginarea {
+  margin-left: 8%;
+  margin-right: 8%;
+  height: 100px;
+  padding-top: 8%;
+}
+
+.formarea > button {
+  padding-top: 50px;
+}
+
+.branding {
+  text-align: center;
+  background-color: #37474F;
+  padding-top: 8%;
+  padding-bottom: 2%;
+  height: 220px;
+}
+
+.branding > h1 {
+  color: #FFF;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.branding > h2 {
+  color: #81D4FA;
+  font-weight: 400;
+  margin-top: 13%;
+  font-size: 28px;
+}
+
+.checkbox {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}

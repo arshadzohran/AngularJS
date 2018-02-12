@@ -1,0 +1,72 @@
+.containerElement{
+  /* background-color: #fff !important; */
+  margin-top: 50px;
+  /* padding: 20px; */
+}
+
+.header {
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 1%;
+}
+
+.breadcrumb {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.loadingCircle-leave {
+  opacity: 1;
+}
+
+.loadingCircle-leave.loadingCircle-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.searchlight-enter {
+  opacity: 0.01;
+}
+
+.searchlight-enter.searchlight-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.searchlight-leave {
+  opacity: 1;
+}
+
+.searchlight-leave.searchlight-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.false {
+  width: 100%;
+}
+
+.loadingBar {
+  background-color: 'blue';
+  height: 15px;
+}
+
+.progressCircle {
+  margin-top: 15%;
+  text-align: center;
+  align-items: center;
+}
+
+.loadingHeader {
+  margin: 1%;
+  padding-bottom: 3%;
+}

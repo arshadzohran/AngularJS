@@ -1,0 +1,16 @@
+.avatarButton {
+  box-shadow: 0 0 1em #000;
+  cursor: pointer;
+}
+
+.downloadButtonContainer {
+  margin: 4px;
+}
+
+.whiteRoundButton {
+  background-color: #fff !important;
+}
+
+.whiteRoundButton path {
+  fill: #7CB342;
+}

@@ -1,0 +1,43 @@
+.container {
+  padding: 5px 20px;
+}
+
+.header {
+  font-weight: 400;
+}
+
+.grid {
+  height: 500px;
+  overflow-y: none;
+}
+
+.grid > div {
+  width: 100% !important;
+}
+
+.table {
+  margin-top: 1%;
+}
+
+.summaryTable {
+}
+
+.totalsContainer {
+  text-align: center;
+}
+
+.cprTotals {
+  height: 120px;
+  width: 250px;
+  margin: 2%;
+  display: inline-block;
+}
+
+.metricName {
+  padding-left: 7%;
+  text-align: left;
+}
+.metrics {
+  text-align: center;
+  font-size: 28px;
+}

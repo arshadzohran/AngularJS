@@ -1,0 +1,47 @@
+.header {
+  font-size: 28px;
+  font-weight: 400;
+  padding-left: 1%;
+  display: inline;
+}
+
+.quilt {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+.container {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+.bigColumn {
+  width: 35%;
+  height: 75%;
+  padding: 0;
+}
+
+.smallColumn {
+  width: 25%;
+  height: 75%;
+  padding: 0;
+}
+
+.bigPaper {
+  width: 100%;
+  padding: 0;
+}
+
+.smallPaper {
+  width: 60%;
+  margin: 5px;
+  padding: 0;
+}
+
+.clientLogo {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

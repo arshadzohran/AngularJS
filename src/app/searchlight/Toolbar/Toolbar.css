@@ -1,0 +1,116 @@
+.container {
+  background-color: #0277BD;
+  color: #fff !important;
+  /* padding: 3px; */
+  width: 100%;
+}
+
+.formContainer {
+  align-items: flex-end;
+  display: flex;
+  padding: 5px 10px 20px 10px;
+}
+
+.formContainer div,
+.formContainer div hr
+{
+  color: #fff !important;
+}
+
+.formContainer > div {
+  flex-grow: 1;
+  margin: 0 5px;
+}
+
+.formContainer label {
+  color: #fff !important;
+}
+
+.formContainer input {
+  color: #fff !important;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+}
+
+.headerIconContainer {
+  margin-top: -23px;
+  display: flex;
+}
+
+.header {
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.datePicker {
+  align-items: flex-end;
+  display: flex;
+}
+
+.datePickerIcon {
+  color: #fff !important;
+  height: 36px !important;
+  width: 36px !important;
+}
+
+.dateField > div {
+  width: 130px !important;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.applyButton,
+.clearButton {
+  min-width: 55px !important;
+}
+
+
+.applyButton span {
+  color: #0091EA !important;
+}
+
+.clearButton span {
+  color: #ff0000 !important;
+}
+
+.applyButton span,
+.clearButton span {
+  text-transform: lowercase !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.avatarButton {
+  box-shadow: 0 0 1em #000;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.downloadButton {
+  float: right;
+}
+
+.greenRoundButton {
+  background-color: #7CB342 !important;
+}
+
+.whiteRoundButton {
+  background-color: #fff !important;
+}
+
+.whiteRoundButton path {
+  fill: #7CB342;
+}
+
+.text {
+  color: #FFF;
+  -webkit-text-fill-color: #FFF;
+}

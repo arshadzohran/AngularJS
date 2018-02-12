@@ -1,0 +1,22 @@
+.contentWrapper {
+  min-width: 50%;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 5%;
+}
+
+.content {
+}
+
+.chartArea {
+}
+
+.chartContainer > svg {
+  width: 100%;
+}
+
+.sidebar {
+}

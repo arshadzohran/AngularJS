@@ -1,0 +1,24 @@
+.container {
+  padding: 5px 20px;
+}
+
+.header {
+}
+
+.recentsContainer {
+  padding: 1%;
+  margin-bottom: 0.5%;
+  display: flex;
+  cursor: pointer;
+}
+
+.dateDiv {
+  margin: 1%;
+}
+
+.metaDiv {
+  margin-left: 8%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+}
