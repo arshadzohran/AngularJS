@@ -10,8 +10,6 @@ const middleStyle = {
   marginLeft: '5%',
   marginRight: '5%',
   paddingTop: '3%',
-  marginLeft: '10',
-  marginRight:'5'
 };
 
 export default class App extends React.Component {
