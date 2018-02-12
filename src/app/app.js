@@ -9,7 +9,9 @@ import RadiusAppBar from '/src/app/shared/AppBar/radiusAppBar';
 const middleStyle = {
   marginLeft: '5%',
   marginRight: '5%',
-  paddingTop: '4%',
+  paddingTop: '3%',
+  marginLeft: '10',
+  marginRight:'5'
 };
 
 export default class App extends React.Component {
