@@ -9,7 +9,7 @@ import RadiusAppBar from '/src/app/shared/AppBar/radiusAppBar';
 const middleStyle = {
   marginLeft: '5%',
   marginRight: '5%',
-  paddingTop: '3%',
+  paddingTop: '4%',
 };
 
 export default class App extends React.Component {
@@ -22,7 +22,7 @@ export default class App extends React.Component {
           <div style={middleStyle}>
             {this.props.children || <TenantSelect />}
           </div>
-        
+
       </MuiThemeProvider>
     )
   };
